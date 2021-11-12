@@ -2,7 +2,7 @@
 const button = document.getElementById('button');
 const toasts = document.getElementById('toasts');
 
-const messages = ['Hello JavaScript','Message Two','Message Three','Message Four','Message Five'];
+const messages = ['Message One','Message Two','Message Three','Message Four','Message Five'];
 const types = ['info', 'success', 'error'];
 
 button.addEventListener('click', () => createNotification())
